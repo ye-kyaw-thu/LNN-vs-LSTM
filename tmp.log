@@ -1,0 +1,849 @@
+(pytorch_py3.10) ye@lst-hpc3090:~/exp/lnn$ ./run_all_experiments.sh
+Starting Liquid Neural Network vs LSTM Baseline Experiments...
+------------------------------------------------
+Running Experiment: Dataset=quickdraw, Method=lstm
+Logging to: ./experiment_logs/quickdraw_lstm_20251231_155935.log
+Loading QuickDraw Categories: 100%|██████████| 10/10 [00:00<00:00, 16.00it/s]
+Epoch 1: 100%|██████████| 310/310 [00:02<00:00, 109.60it/s]
+
+[Epoch 1] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.3260 | Loss: 1.8273
+TEST  | Acc: 0.5391 | Loss: 1.3037
+------------------------------
+Epoch 2: 100%|██████████| 310/310 [00:02<00:00, 135.97it/s]
+
+[Epoch 2] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.7049 | Loss: 0.8531
+TEST  | Acc: 0.8300 | Loss: 0.5198
+------------------------------
+Epoch 3: 100%|██████████| 310/310 [00:02<00:00, 135.35it/s]
+
+[Epoch 3] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.8716 | Loss: 0.3947
+TEST  | Acc: 0.8857 | Loss: 0.3638
+------------------------------
+Epoch 4: 100%|██████████| 310/310 [00:02<00:00, 135.66it/s]
+
+[Epoch 4] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9215 | Loss: 0.2508
+TEST  | Acc: 0.9297 | Loss: 0.2294
+------------------------------
+Epoch 5: 100%|██████████| 310/310 [00:02<00:00, 134.26it/s]
+
+[Epoch 5] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9424 | Loss: 0.1824
+TEST  | Acc: 0.9407 | Loss: 0.1934
+------------------------------
+Epoch 6: 100%|██████████| 310/310 [00:02<00:00, 136.49it/s]
+
+[Epoch 6] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9542 | Loss: 0.1440
+TEST  | Acc: 0.9514 | Loss: 0.1607
+------------------------------
+Epoch 7: 100%|██████████| 310/310 [00:02<00:00, 136.50it/s]
+
+[Epoch 7] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9626 | Loss: 0.1162
+TEST  | Acc: 0.9550 | Loss: 0.1413
+------------------------------
+Epoch 8: 100%|██████████| 310/310 [00:02<00:00, 135.42it/s]
+
+[Epoch 8] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9697 | Loss: 0.0932
+TEST  | Acc: 0.9585 | Loss: 0.1499
+------------------------------
+Epoch 9: 100%|██████████| 310/310 [00:02<00:00, 135.11it/s]
+
+[Epoch 9] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9756 | Loss: 0.0761
+TEST  | Acc: 0.9533 | Loss: 0.1650
+------------------------------
+Epoch 10: 100%|██████████| 310/310 [00:02<00:00, 136.46it/s]
+
+[Epoch 10] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9800 | Loss: 0.0607
+TEST  | Acc: 0.9608 | Loss: 0.1384
+------------------------------
+Epoch 11: 100%|██████████| 310/310 [00:02<00:00, 135.95it/s]
+
+[Epoch 11] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9836 | Loss: 0.0506
+TEST  | Acc: 0.9606 | Loss: 0.1434
+------------------------------
+Epoch 12: 100%|██████████| 310/310 [00:02<00:00, 135.93it/s]
+
+[Epoch 12] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9852 | Loss: 0.0445
+TEST  | Acc: 0.9602 | Loss: 0.1525
+------------------------------
+Epoch 13: 100%|██████████| 310/310 [00:02<00:00, 136.36it/s]
+
+[Epoch 13] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9875 | Loss: 0.0374
+TEST  | Acc: 0.9599 | Loss: 0.1514
+------------------------------
+Epoch 14: 100%|██████████| 310/310 [00:02<00:00, 135.84it/s]
+
+[Epoch 14] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9884 | Loss: 0.0344
+TEST  | Acc: 0.9629 | Loss: 0.1519
+------------------------------
+Epoch 15: 100%|██████████| 310/310 [00:02<00:00, 135.44it/s]
+
+[Epoch 15] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9901 | Loss: 0.0306
+TEST  | Acc: 0.9625 | Loss: 0.1476
+------------------------------
+Epoch 16: 100%|██████████| 310/310 [00:02<00:00, 135.59it/s]
+
+[Epoch 16] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9903 | Loss: 0.0294
+TEST  | Acc: 0.9613 | Loss: 0.1808
+------------------------------
+Epoch 17: 100%|██████████| 310/310 [00:02<00:00, 130.40it/s]
+
+[Epoch 17] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9903 | Loss: 0.0301
+TEST  | Acc: 0.9623 | Loss: 0.1553
+------------------------------
+Epoch 18: 100%|██████████| 310/310 [00:02<00:00, 135.70it/s]
+
+[Epoch 18] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9925 | Loss: 0.0232
+TEST  | Acc: 0.9623 | Loss: 0.1579
+------------------------------
+Epoch 19: 100%|██████████| 310/310 [00:02<00:00, 135.17it/s]
+
+[Epoch 19] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9970 | Loss: 0.0098
+TEST  | Acc: 0.9669 | Loss: 0.1558
+------------------------------
+Epoch 20: 100%|██████████| 310/310 [00:02<00:00, 132.51it/s]
+
+[Epoch 20] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9991 | Loss: 0.0033
+TEST  | Acc: 0.9673 | Loss: 0.1781
+------------------------------
+Epoch 21: 100%|██████████| 310/310 [00:02<00:00, 134.39it/s]
+
+[Epoch 21] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9995 | Loss: 0.0022
+TEST  | Acc: 0.9669 | Loss: 0.1990
+------------------------------
+Epoch 22: 100%|██████████| 310/310 [00:02<00:00, 134.95it/s]
+
+[Epoch 22] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9987 | Loss: 0.0041
+TEST  | Acc: 0.9663 | Loss: 0.2030
+------------------------------
+Epoch 23: 100%|██████████| 310/310 [00:02<00:00, 134.87it/s]
+
+[Epoch 23] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9990 | Loss: 0.0037
+TEST  | Acc: 0.9663 | Loss: 0.1990
+------------------------------
+Epoch 24: 100%|██████████| 310/310 [00:02<00:00, 134.96it/s]
+
+[Epoch 24] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9982 | Loss: 0.0054
+TEST  | Acc: 0.9642 | Loss: 0.2192
+------------------------------
+Epoch 25: 100%|██████████| 310/310 [00:02<00:00, 133.12it/s]
+
+[Epoch 25] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9994 | Loss: 0.0026
+TEST  | Acc: 0.9676 | Loss: 0.2001
+------------------------------
+Epoch 26: 100%|██████████| 310/310 [00:02<00:00, 127.44it/s]
+
+[Epoch 26] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9999 | Loss: 0.0008
+TEST  | Acc: 0.9678 | Loss: 0.2038
+------------------------------
+Epoch 27: 100%|██████████| 310/310 [00:02<00:00, 136.22it/s]
+
+[Epoch 27] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9998 | Loss: 0.0007
+TEST  | Acc: 0.9665 | Loss: 0.2147
+------------------------------
+Epoch 28: 100%|██████████| 310/310 [00:02<00:00, 135.40it/s]
+
+[Epoch 28] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9998 | Loss: 0.0007
+TEST  | Acc: 0.9679 | Loss: 0.2126
+------------------------------
+Epoch 29: 100%|██████████| 310/310 [00:02<00:00, 135.07it/s]
+
+[Epoch 29] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 0.9998 | Loss: 0.0009
+TEST  | Acc: 0.9665 | Loss: 0.2164
+------------------------------
+Epoch 30: 100%|██████████| 310/310 [00:02<00:00, 130.89it/s]
+
+[Epoch 30] Dataset: QUICKDRAW | Method: LSTM
+TRAIN | Acc: 1.0000 | Loss: 0.0003
+TEST  | Acc: 0.9671 | Loss: 0.2209
+------------------------------
+
+real    1m17.880s
+user    1m19.107s
+sys     0m3.055s
+Finished quickdraw with lstm.
+------------------------------------------------
+Running Experiment: Dataset=quickdraw, Method=lnn
+Logging to: ./experiment_logs/quickdraw_lnn_20251231_160053.log
+Loading QuickDraw Categories: 100%|██████████| 10/10 [00:00<00:00, 16.19it/s]
+Epoch 1: 100%|██████████| 310/310 [00:12<00:00, 25.14it/s]
+
+[Epoch 1] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.3479 | Loss: 1.7508
+TEST  | Acc: 0.4721 | Loss: 1.4371
+------------------------------
+Epoch 2: 100%|██████████| 310/310 [00:12<00:00, 25.73it/s]
+
+[Epoch 2] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.5916 | Loss: 1.1339
+TEST  | Acc: 0.7005 | Loss: 0.8453
+------------------------------
+Epoch 3: 100%|██████████| 310/310 [00:12<00:00, 25.56it/s]
+
+[Epoch 3] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.7802 | Loss: 0.6514
+TEST  | Acc: 0.8459 | Loss: 0.4671
+------------------------------
+Epoch 4: 100%|██████████| 310/310 [00:12<00:00, 25.57it/s]
+
+[Epoch 4] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.8153 | Loss: 0.8373
+TEST  | Acc: 0.4078 | Loss: 2.3079
+------------------------------
+Epoch 5: 100%|██████████| 310/310 [00:12<00:00, 25.79it/s]
+
+[Epoch 5] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.8225 | Loss: 0.5553
+TEST  | Acc: 0.8665 | Loss: 0.3821
+------------------------------
+Epoch 6: 100%|██████████| 310/310 [00:12<00:00, 25.59it/s]
+
+[Epoch 6] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9069 | Loss: 0.2864
+TEST  | Acc: 0.9148 | Loss: 0.2602
+------------------------------
+Epoch 7: 100%|██████████| 310/310 [00:12<00:00, 25.40it/s]
+
+[Epoch 7] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9244 | Loss: 0.2377
+TEST  | Acc: 0.9208 | Loss: 0.2557
+------------------------------
+Epoch 8: 100%|██████████| 310/310 [00:12<00:00, 25.66it/s]
+
+[Epoch 8] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9341 | Loss: 0.2072
+TEST  | Acc: 0.9264 | Loss: 0.2219
+------------------------------
+Epoch 9: 100%|██████████| 310/310 [00:12<00:00, 25.64it/s]
+
+[Epoch 9] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9387 | Loss: 0.1866
+TEST  | Acc: 0.9345 | Loss: 0.2038
+------------------------------
+Epoch 10: 100%|██████████| 310/310 [00:12<00:00, 25.65it/s]
+
+[Epoch 10] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9445 | Loss: 0.1724
+TEST  | Acc: 0.9426 | Loss: 0.1818
+------------------------------
+Epoch 11: 100%|██████████| 310/310 [00:12<00:00, 25.68it/s]
+
+[Epoch 11] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9507 | Loss: 0.1543
+TEST  | Acc: 0.9318 | Loss: 0.2172
+------------------------------
+Epoch 12: 100%|██████████| 310/310 [00:12<00:00, 25.28it/s]
+
+[Epoch 12] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9567 | Loss: 0.1346
+TEST  | Acc: 0.9413 | Loss: 0.1909
+------------------------------
+Epoch 13: 100%|██████████| 310/310 [00:12<00:00, 25.21it/s]
+
+[Epoch 13] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9585 | Loss: 0.1248
+TEST  | Acc: 0.9459 | Loss: 0.1760
+------------------------------
+Epoch 14: 100%|██████████| 310/310 [00:12<00:00, 25.54it/s]
+
+[Epoch 14] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9632 | Loss: 0.1148
+TEST  | Acc: 0.9506 | Loss: 0.1633
+------------------------------
+Epoch 15: 100%|██████████| 310/310 [00:12<00:00, 25.55it/s]
+
+[Epoch 15] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9641 | Loss: 0.1130
+TEST  | Acc: 0.9413 | Loss: 0.1961
+------------------------------
+Epoch 16: 100%|██████████| 310/310 [00:12<00:00, 25.73it/s]
+
+[Epoch 16] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9657 | Loss: 0.1066
+TEST  | Acc: 0.9512 | Loss: 0.1704
+------------------------------
+Epoch 17: 100%|██████████| 310/310 [00:12<00:00, 25.77it/s]
+
+[Epoch 17] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9547 | Loss: 0.1428
+TEST  | Acc: 0.7960 | Loss: 1.0448
+------------------------------
+Epoch 18: 100%|██████████| 310/310 [00:12<00:00, 25.68it/s]
+
+[Epoch 18] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9671 | Loss: 0.1059
+TEST  | Acc: 0.9530 | Loss: 0.1511
+------------------------------
+Epoch 19: 100%|██████████| 310/310 [00:11<00:00, 25.85it/s]
+
+[Epoch 19] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9725 | Loss: 0.0850
+TEST  | Acc: 0.9461 | Loss: 0.1867
+------------------------------
+Epoch 20: 100%|██████████| 310/310 [00:11<00:00, 25.87it/s]
+
+[Epoch 20] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9724 | Loss: 0.0837
+TEST  | Acc: 0.9507 | Loss: 0.1653
+------------------------------
+Epoch 21: 100%|██████████| 310/310 [00:12<00:00, 25.39it/s]
+
+[Epoch 21] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9765 | Loss: 0.0732
+TEST  | Acc: 0.9444 | Loss: 0.1921
+------------------------------
+Epoch 22: 100%|██████████| 310/310 [00:12<00:00, 25.66it/s]
+
+[Epoch 22] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9744 | Loss: 0.0790
+TEST  | Acc: 0.9502 | Loss: 0.1726
+------------------------------
+Epoch 23: 100%|██████████| 310/310 [00:12<00:00, 25.65it/s]
+
+[Epoch 23] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9854 | Loss: 0.0462
+TEST  | Acc: 0.9615 | Loss: 0.1385
+------------------------------
+Epoch 24: 100%|██████████| 310/310 [00:12<00:00, 25.64it/s]
+
+[Epoch 24] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9900 | Loss: 0.0311
+TEST  | Acc: 0.9576 | Loss: 0.1668
+------------------------------
+Epoch 25: 100%|██████████| 310/310 [00:12<00:00, 25.42it/s]
+
+[Epoch 25] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9920 | Loss: 0.0265
+TEST  | Acc: 0.9595 | Loss: 0.1594
+------------------------------
+Epoch 26: 100%|██████████| 310/310 [00:12<00:00, 25.48it/s]
+
+[Epoch 26] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9927 | Loss: 0.0230
+TEST  | Acc: 0.9588 | Loss: 0.1646
+------------------------------
+Epoch 27: 100%|██████████| 310/310 [00:12<00:00, 25.54it/s]
+
+[Epoch 27] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9920 | Loss: 0.0251
+TEST  | Acc: 0.9573 | Loss: 0.1947
+------------------------------
+Epoch 28: 100%|██████████| 310/310 [00:12<00:00, 25.70it/s]
+
+[Epoch 28] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9967 | Loss: 0.0119
+TEST  | Acc: 0.9596 | Loss: 0.1747
+------------------------------
+Epoch 29: 100%|██████████| 310/310 [00:12<00:00, 25.50it/s]
+
+[Epoch 29] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9984 | Loss: 0.0076
+TEST  | Acc: 0.9583 | Loss: 0.1840
+------------------------------
+Epoch 30: 100%|██████████| 310/310 [00:12<00:00, 25.73it/s]
+
+[Epoch 30] Dataset: QUICKDRAW | Method: LNN
+TRAIN | Acc: 0.9987 | Loss: 0.0063
+TEST  | Acc: 0.9593 | Loss: 0.1831
+------------------------------
+
+real    6m26.515s
+user    6m27.090s
+sys     0m3.354s
+Finished quickdraw with lnn.
+------------------------------------------------
+Running Experiment: Dataset=iam, Method=lstm
+Logging to: ./experiment_logs/iam_lstm_20251231_160719.log
+Error loading IAM dataset: Failed to interpret file './data/iam/sentences.npz' as a pickle
+Traceback (most recent call last):
+  File "/home/ye/miniforge3/envs/pytorch_py3.10/lib/python3.10/site-packages/numpy/lib/npyio.py", line 465, in load
+    return pickle.load(fid, **pickle_kwargs)
+_pickle.UnpicklingError: invalid load key, '\x0a'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/exp/lnn/lnn.py", line 257, in <module>
+    main()
+  File "/home/ye/exp/lnn/lnn.py", line 202, in main
+    full_ds = IAMDataset(os.path.join(args.data_path, "iam", "sentences.npz"))
+  File "/home/ye/exp/lnn/lnn.py", line 73, in __init__
+    raw_data = np.load(file_path, allow_pickle=True, encoding='latin1')
+  File "/home/ye/miniforge3/envs/pytorch_py3.10/lib/python3.10/site-packages/numpy/lib/npyio.py", line 467, in load
+    raise pickle.UnpicklingError(
+_pickle.UnpicklingError: Failed to interpret file './data/iam/sentences.npz' as a pickle
+
+real    0m1.438s
+user    0m4.504s
+sys     0m1.995s
+Finished iam with lstm.
+------------------------------------------------
+Running Experiment: Dataset=iam, Method=lnn
+Logging to: ./experiment_logs/iam_lnn_20251231_160721.log
+Error loading IAM dataset: Failed to interpret file './data/iam/sentences.npz' as a pickle
+Traceback (most recent call last):
+  File "/home/ye/miniforge3/envs/pytorch_py3.10/lib/python3.10/site-packages/numpy/lib/npyio.py", line 465, in load
+    return pickle.load(fid, **pickle_kwargs)
+_pickle.UnpicklingError: invalid load key, '\x0a'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ye/exp/lnn/lnn.py", line 257, in <module>
+    main()
+  File "/home/ye/exp/lnn/lnn.py", line 202, in main
+    full_ds = IAMDataset(os.path.join(args.data_path, "iam", "sentences.npz"))
+  File "/home/ye/exp/lnn/lnn.py", line 73, in __init__
+    raw_data = np.load(file_path, allow_pickle=True, encoding='latin1')
+  File "/home/ye/miniforge3/envs/pytorch_py3.10/lib/python3.10/site-packages/numpy/lib/npyio.py", line 467, in load
+    raise pickle.UnpicklingError(
+_pickle.UnpicklingError: Failed to interpret file './data/iam/sentences.npz' as a pickle
+
+real    0m1.424s
+user    0m4.514s
+sys     0m2.005s
+Finished iam with lnn.
+------------------------------------------------
+Running Experiment: Dataset=n-mnist, Method=lstm
+Logging to: ./experiment_logs/n-mnist_lstm_20251231_160722.log
+Epoch 1: 100%|██████████| 34/34 [00:00<00:00, 39.83it/s]
+
+[Epoch 1] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1047 | Loss: 2.3042
+TEST  | Acc: 0.0933 | Loss: 2.3046
+------------------------------
+Epoch 2: 100%|██████████| 34/34 [00:00<00:00, 48.73it/s]
+
+[Epoch 2] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1028 | Loss: 2.3046
+TEST  | Acc: 0.1067 | Loss: 2.3031
+------------------------------
+Epoch 3: 100%|██████████| 34/34 [00:00<00:00, 48.68it/s]
+
+[Epoch 3] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.0972 | Loss: 2.3038
+TEST  | Acc: 0.0960 | Loss: 2.3035
+------------------------------
+Epoch 4: 100%|██████████| 34/34 [00:00<00:00, 48.62it/s]
+
+[Epoch 4] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.0960 | Loss: 2.3034
+TEST  | Acc: 0.1067 | Loss: 2.3032
+------------------------------
+Epoch 5: 100%|██████████| 34/34 [00:00<00:00, 48.64it/s]
+
+[Epoch 5] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1082 | Loss: 2.2997
+TEST  | Acc: 0.1267 | Loss: 2.2922
+------------------------------
+Epoch 6: 100%|██████████| 34/34 [00:00<00:00, 48.61it/s]
+
+[Epoch 6] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1252 | Loss: 2.2917
+TEST  | Acc: 0.1493 | Loss: 2.2792
+------------------------------
+Epoch 7: 100%|██████████| 34/34 [00:00<00:00, 48.49it/s]
+
+[Epoch 7] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1433 | Loss: 2.2699
+TEST  | Acc: 0.1360 | Loss: 2.2689
+------------------------------
+Epoch 8: 100%|██████████| 34/34 [00:00<00:00, 48.53it/s]
+
+[Epoch 8] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1428 | Loss: 2.2609
+TEST  | Acc: 0.1453 | Loss: 2.2686
+------------------------------
+Epoch 9: 100%|██████████| 34/34 [00:00<00:00, 48.64it/s]
+
+[Epoch 9] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1391 | Loss: 2.2570
+TEST  | Acc: 0.1507 | Loss: 2.2586
+------------------------------
+Epoch 10: 100%|██████████| 34/34 [00:00<00:00, 48.52it/s]
+
+[Epoch 10] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1464 | Loss: 2.2558
+TEST  | Acc: 0.1427 | Loss: 2.2566
+------------------------------
+Epoch 11: 100%|██████████| 34/34 [00:00<00:00, 48.57it/s]
+
+[Epoch 11] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1468 | Loss: 2.2532
+TEST  | Acc: 0.1360 | Loss: 2.2590
+------------------------------
+Epoch 12: 100%|██████████| 34/34 [00:00<00:00, 48.63it/s]
+
+[Epoch 12] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1473 | Loss: 2.2553
+TEST  | Acc: 0.1533 | Loss: 2.2520
+------------------------------
+Epoch 13: 100%|██████████| 34/34 [00:00<00:00, 48.67it/s]
+
+[Epoch 13] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1449 | Loss: 2.2564
+TEST  | Acc: 0.1520 | Loss: 2.2562
+------------------------------
+Epoch 14: 100%|██████████| 34/34 [00:00<00:00, 48.41it/s]
+
+[Epoch 14] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1471 | Loss: 2.2541
+TEST  | Acc: 0.1600 | Loss: 2.2541
+------------------------------
+Epoch 15: 100%|██████████| 34/34 [00:00<00:00, 48.54it/s]
+
+[Epoch 15] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1534 | Loss: 2.2471
+TEST  | Acc: 0.1587 | Loss: 2.2442
+------------------------------
+Epoch 16: 100%|██████████| 34/34 [00:00<00:00, 48.51it/s]
+
+[Epoch 16] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1687 | Loss: 2.2350
+TEST  | Acc: 0.1453 | Loss: 2.2676
+------------------------------
+Epoch 17: 100%|██████████| 34/34 [00:00<00:00, 48.61it/s]
+
+[Epoch 17] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1727 | Loss: 2.2170
+TEST  | Acc: 0.1733 | Loss: 2.2083
+------------------------------
+Epoch 18: 100%|██████████| 34/34 [00:00<00:00, 48.61it/s]
+
+[Epoch 18] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.1854 | Loss: 2.1852
+TEST  | Acc: 0.1893 | Loss: 2.1811
+------------------------------
+Epoch 19: 100%|██████████| 34/34 [00:00<00:00, 48.60it/s]
+
+[Epoch 19] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2007 | Loss: 2.1612
+TEST  | Acc: 0.2360 | Loss: 2.1127
+------------------------------
+Epoch 20: 100%|██████████| 34/34 [00:00<00:00, 48.60it/s]
+
+[Epoch 20] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2292 | Loss: 2.1232
+TEST  | Acc: 0.2067 | Loss: 2.1325
+------------------------------
+Epoch 21: 100%|██████████| 34/34 [00:00<00:00, 48.56it/s]
+
+[Epoch 21] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2355 | Loss: 2.0866
+TEST  | Acc: 0.2520 | Loss: 2.0401
+------------------------------
+Epoch 22: 100%|██████████| 34/34 [00:00<00:00, 48.62it/s]
+
+[Epoch 22] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2567 | Loss: 2.0690
+TEST  | Acc: 0.2533 | Loss: 2.0225
+------------------------------
+Epoch 23: 100%|██████████| 34/34 [00:00<00:00, 48.53it/s]
+
+[Epoch 23] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2609 | Loss: 2.0433
+TEST  | Acc: 0.2333 | Loss: 2.0253
+------------------------------
+Epoch 24: 100%|██████████| 34/34 [00:00<00:00, 48.60it/s]
+
+[Epoch 24] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2656 | Loss: 2.0425
+TEST  | Acc: 0.2493 | Loss: 2.0514
+------------------------------
+Epoch 25: 100%|██████████| 34/34 [00:00<00:00, 48.65it/s]
+
+[Epoch 25] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2746 | Loss: 2.0223
+TEST  | Acc: 0.2453 | Loss: 2.0036
+------------------------------
+Epoch 26: 100%|██████████| 34/34 [00:00<00:00, 48.69it/s]
+
+[Epoch 26] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2798 | Loss: 1.9966
+TEST  | Acc: 0.2720 | Loss: 1.9768
+------------------------------
+Epoch 27: 100%|██████████| 34/34 [00:00<00:00, 48.55it/s]
+
+[Epoch 27] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2871 | Loss: 1.9603
+TEST  | Acc: 0.2787 | Loss: 1.9388
+------------------------------
+Epoch 28: 100%|██████████| 34/34 [00:00<00:00, 48.54it/s]
+
+[Epoch 28] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.2939 | Loss: 1.9547
+TEST  | Acc: 0.2853 | Loss: 1.9121
+------------------------------
+Epoch 29: 100%|██████████| 34/34 [00:00<00:00, 48.62it/s]
+
+[Epoch 29] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.3071 | Loss: 1.9278
+TEST  | Acc: 0.3147 | Loss: 1.8886
+------------------------------
+Epoch 30: 100%|██████████| 34/34 [00:00<00:00, 48.43it/s]
+
+[Epoch 30] Dataset: N-MNIST | Method: LSTM
+TRAIN | Acc: 0.3198 | Loss: 1.9012
+TEST  | Acc: 0.2813 | Loss: 1.9129
+------------------------------
+
+real    0m24.833s
+user    0m27.484s
+sys     0m2.316s
+Finished n-mnist with lstm.
+------------------------------------------------
+Running Experiment: Dataset=n-mnist, Method=lnn
+Logging to: ./experiment_logs/n-mnist_lnn_20251231_160747.log
+Epoch 1: 100%|██████████| 34/34 [00:05<00:00,  6.80it/s]
+
+[Epoch 1] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0991 | Loss: 2.3079
+TEST  | Acc: 0.1053 | Loss: 2.3028
+------------------------------
+Epoch 2: 100%|██████████| 34/34 [00:04<00:00,  7.10it/s]
+
+[Epoch 2] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0998 | Loss: 2.3052
+TEST  | Acc: 0.0827 | Loss: 2.3049
+------------------------------
+Epoch 3: 100%|██████████| 34/34 [00:04<00:00,  7.16it/s]
+
+[Epoch 3] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0951 | Loss: 2.3059
+TEST  | Acc: 0.0827 | Loss: 2.3024
+------------------------------
+Epoch 4: 100%|██████████| 34/34 [00:04<00:00,  7.08it/s]
+
+[Epoch 4] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0991 | Loss: 2.3050
+TEST  | Acc: 0.0840 | Loss: 2.3038
+------------------------------
+Epoch 5: 100%|██████████| 34/34 [00:04<00:00,  7.09it/s]
+
+[Epoch 5] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0934 | Loss: 2.3043
+TEST  | Acc: 0.0840 | Loss: 2.3047
+------------------------------
+Epoch 6: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 6] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1021 | Loss: 2.3032
+TEST  | Acc: 0.0840 | Loss: 2.3048
+------------------------------
+Epoch 7: 100%|██████████| 34/34 [00:04<00:00,  7.10it/s]
+
+[Epoch 7] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1026 | Loss: 2.3031
+TEST  | Acc: 0.0840 | Loss: 2.3049
+------------------------------
+Epoch 8: 100%|██████████| 34/34 [00:04<00:00,  7.15it/s]
+
+[Epoch 8] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1026 | Loss: 2.3030
+TEST  | Acc: 0.0827 | Loss: 2.3047
+------------------------------
+Epoch 9: 100%|██████████| 34/34 [00:04<00:00,  7.16it/s]
+
+[Epoch 9] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0974 | Loss: 2.3032
+TEST  | Acc: 0.0827 | Loss: 2.3038
+------------------------------
+Epoch 10: 100%|██████████| 34/34 [00:04<00:00,  7.16it/s]
+
+[Epoch 10] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0995 | Loss: 2.3028
+TEST  | Acc: 0.0827 | Loss: 2.3040
+------------------------------
+Epoch 11: 100%|██████████| 34/34 [00:04<00:00,  7.15it/s]
+
+[Epoch 11] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1019 | Loss: 2.3031
+TEST  | Acc: 0.0827 | Loss: 2.3039
+------------------------------
+Epoch 12: 100%|██████████| 34/34 [00:04<00:00,  7.16it/s]
+
+[Epoch 12] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0969 | Loss: 2.3024
+TEST  | Acc: 0.0827 | Loss: 2.3040
+------------------------------
+Epoch 13: 100%|██████████| 34/34 [00:04<00:00,  7.17it/s]
+
+[Epoch 13] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0958 | Loss: 2.3027
+TEST  | Acc: 0.0840 | Loss: 2.3042
+------------------------------
+Epoch 14: 100%|██████████| 34/34 [00:04<00:00,  7.14it/s]
+
+[Epoch 14] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0974 | Loss: 2.3028
+TEST  | Acc: 0.0827 | Loss: 2.3041
+------------------------------
+Epoch 15: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 15] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0965 | Loss: 2.3025
+TEST  | Acc: 0.0827 | Loss: 2.3038
+------------------------------
+Epoch 16: 100%|██████████| 34/34 [00:04<00:00,  7.14it/s]
+
+[Epoch 16] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1014 | Loss: 2.3027
+TEST  | Acc: 0.0827 | Loss: 2.3039
+------------------------------
+Epoch 17: 100%|██████████| 34/34 [00:04<00:00,  7.14it/s]
+
+[Epoch 17] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1071 | Loss: 2.3023
+TEST  | Acc: 0.0827 | Loss: 2.3040
+------------------------------
+Epoch 18: 100%|██████████| 34/34 [00:04<00:00,  7.15it/s]
+
+[Epoch 18] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.0960 | Loss: 2.3024
+TEST  | Acc: 0.0880 | Loss: 2.3039
+------------------------------
+Epoch 19: 100%|██████████| 34/34 [00:04<00:00,  7.04it/s]
+
+[Epoch 19] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1016 | Loss: 2.3022
+TEST  | Acc: 0.0827 | Loss: 2.3039
+------------------------------
+Epoch 20: 100%|██████████| 34/34 [00:04<00:00,  7.15it/s]
+
+[Epoch 20] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1014 | Loss: 2.3020
+TEST  | Acc: 0.0827 | Loss: 2.3038
+------------------------------
+Epoch 21: 100%|██████████| 34/34 [00:04<00:00,  7.11it/s]
+
+[Epoch 21] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1089 | Loss: 2.3023
+TEST  | Acc: 0.0813 | Loss: 2.3039
+------------------------------
+Epoch 22: 100%|██████████| 34/34 [00:04<00:00,  7.12it/s]
+
+[Epoch 22] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1038 | Loss: 2.3021
+TEST  | Acc: 0.0880 | Loss: 2.3038
+------------------------------
+Epoch 23: 100%|██████████| 34/34 [00:04<00:00,  7.16it/s]
+
+[Epoch 23] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1031 | Loss: 2.3021
+TEST  | Acc: 0.0867 | Loss: 2.3037
+------------------------------
+Epoch 24: 100%|██████████| 34/34 [00:04<00:00,  7.08it/s]
+
+[Epoch 24] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1092 | Loss: 2.3020
+TEST  | Acc: 0.0827 | Loss: 2.3035
+------------------------------
+Epoch 25: 100%|██████████| 34/34 [00:04<00:00,  7.16it/s]
+
+[Epoch 25] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1078 | Loss: 2.3021
+TEST  | Acc: 0.0853 | Loss: 2.3034
+------------------------------
+Epoch 26: 100%|██████████| 34/34 [00:04<00:00,  7.10it/s]
+
+[Epoch 26] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1085 | Loss: 2.3018
+TEST  | Acc: 0.0853 | Loss: 2.3034
+------------------------------
+Epoch 27: 100%|██████████| 34/34 [00:04<00:00,  7.06it/s]
+
+[Epoch 27] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1118 | Loss: 2.3019
+TEST  | Acc: 0.0853 | Loss: 2.3035
+------------------------------
+Epoch 28: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 28] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1066 | Loss: 2.3015
+TEST  | Acc: 0.0840 | Loss: 2.3034
+------------------------------
+Epoch 29: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 29] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1087 | Loss: 2.3017
+TEST  | Acc: 0.0840 | Loss: 2.3032
+------------------------------
+Epoch 30: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 30] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1078 | Loss: 2.3017
+TEST  | Acc: 0.0867 | Loss: 2.3033
+------------------------------
+
+real    2m32.140s
+user    2m26.888s
+sys     0m10.348s
+Finished n-mnist with lnn.
+All experiments completed. Check the './experiment_logs' folder for logs.
+(pytorch_py3.10) ye@lst-hpc3090:~/exp/lnn$ rm tmp.log
+rm: cannot remove 'tmp.log': No such file or directory
+(pytorch_py3.10) ye@lst-hpc3090:~/exp/lnn$ nano tmp.log
+
+  GNU nano 7.2                                                    tmp.log
+------------------------------
+Epoch 27: 100%|██████████| 34/34 [00:04<00:00,  7.06it/s]
+
+[Epoch 27] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1118 | Loss: 2.3019
+TEST  | Acc: 0.0853 | Loss: 2.3035
+------------------------------
+Epoch 28: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 28] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1066 | Loss: 2.3015
+TEST  | Acc: 0.0840 | Loss: 2.3034
+------------------------------
+Epoch 29: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 29] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1087 | Loss: 2.3017
+TEST  | Acc: 0.0840 | Loss: 2.3032
+------------------------------
+Epoch 30: 100%|██████████| 34/34 [00:04<00:00,  7.13it/s]
+
+[Epoch 30] Dataset: N-MNIST | Method: LNN
+TRAIN | Acc: 0.1078 | Loss: 2.3017
+TEST  | Acc: 0.0867 | Loss: 2.3033
+------------------------------
+
+real    2m32.140s
+user    2m26.888s
+sys     0m10.348s
+Finished n-mnist with lnn.
+All experiments completed. Check the './experiment_logs' folder for logs.
+
+
+
+(pytorch_py3.10) ye@lst-hpc3090:~/exp/lnn$

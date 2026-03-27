@@ -1,0 +1,16 @@
+digraph QuickDraw_LNN {
+    rankdir=TB;
+    node [shape=rect, style=filled, fontname="Arial"];
+
+    Input [label="Input: Stroke Points\n(Max_Len, 5 features)", fillcolor="#e1f5fe"];
+    
+    FeatureMap [label="Feature Mapping\n(Linear + LayerNorm + ReLU)\nDim: 128", fillcolor="#fff9c4"];
+    
+    LNN [label="LNN Core (CfC)\n(Units: 256)", fillcolor="#c8e6c9"];
+    
+    MeanPool [label="Mean Pooling\n(Temporal Aggregation)", fillcolor="#ffe0b2"];
+    
+    Classifier [label="MLP Classifier\n(ReLU + Dropout + Linear)\n(50 Classes)", fillcolor="#f8bbd0"];
+
+    Input -> FeatureMap -> LNN -> MeanPool -> Classifier;
+}

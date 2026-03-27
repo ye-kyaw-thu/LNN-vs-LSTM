@@ -1,0 +1,5 @@
+Device: cpu | Dataset: quickdraw | Method: lnn
+RESULT | Drop: 0.0% | Accuracy: 0.9269
+RESULT | Drop: 30.0% | Accuracy: 0.6880
+RESULT | Drop: 50.0% | Accuracy: 0.4147
+RESULT | Drop: 70.0% | Accuracy: 0.2248

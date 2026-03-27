@@ -1,0 +1,61 @@
+
+[Epoch 1] | Loss: 2.6819 | CER: 0.6343 | WER: 0.9350
+
+[Epoch 2] | Loss: 1.2281 | CER: 0.3041 | WER: 0.6930
+
+[Epoch 3] | Loss: 0.7939 | CER: 0.2213 | WER: 0.5905
+
+[Epoch 4] | Loss: 0.6322 | CER: 0.2038 | WER: 0.5552
+
+[Epoch 5] | Loss: 0.5440 | CER: 0.1701 | WER: 0.5037
+
+[Epoch 6] | Loss: 0.4813 | CER: 0.1622 | WER: 0.4836
+
+[Epoch 7] | Loss: 0.4359 | CER: 0.1464 | WER: 0.4446
+
+[Epoch 8] | Loss: 0.3956 | CER: 0.1492 | WER: 0.4525
+
+[Epoch 9] | Loss: 0.3622 | CER: 0.1509 | WER: 0.4799
+
+[Epoch 10] | Loss: 0.3309 | CER: 0.1290 | WER: 0.4030
+
+[Epoch 11] | Loss: 0.3052 | CER: 0.1352 | WER: 0.4219
+
+[Epoch 12] | Loss: 0.2810 | CER: 0.1269 | WER: 0.3989
+
+[Epoch 13] | Loss: 0.2554 | CER: 0.1247 | WER: 0.3931
+
+[Epoch 14] | Loss: 0.2323 | CER: 0.1206 | WER: 0.3783
+
+[Epoch 15] | Loss: 0.2158 | CER: 0.1287 | WER: 0.4085
+
+[Epoch 16] | Loss: 0.1943 | CER: 0.1234 | WER: 0.3873
+
+[Epoch 17] | Loss: 0.1780 | CER: 0.1203 | WER: 0.3933
+
+[Epoch 18] | Loss: 0.1625 | CER: 0.1154 | WER: 0.3696
+
+[Epoch 19] | Loss: 0.1453 | CER: 0.1137 | WER: 0.3603
+
+[Epoch 20] | Loss: 0.1343 | CER: 0.1119 | WER: 0.3587
+
+[Epoch 21] | Loss: 0.1206 | CER: 0.1119 | WER: 0.3595
+
+[Epoch 22] | Loss: 0.1102 | CER: 0.1128 | WER: 0.3647
+
+[Epoch 23] | Loss: 0.1034 | CER: 0.1106 | WER: 0.3554
+
+[Epoch 24] | Loss: 0.0973 | CER: 0.1121 | WER: 0.3631
+
+[Epoch 25] | Loss: 0.0929 | CER: 0.1140 | WER: 0.3638
+
+[Epoch 26] | Loss: 0.0868 | CER: 0.1120 | WER: 0.3613
+
+[Epoch 27] | Loss: 0.0823 | CER: 0.1102 | WER: 0.3562
+
+[Epoch 28] | Loss: 0.0788 | CER: 0.1108 | WER: 0.3579
+
+[Epoch 29] | Loss: 0.0784 | CER: 0.1091 | WER: 0.3524
+
+[Epoch 30] | Loss: 0.0784 | CER: 0.1090 | WER: 0.3519
+Results saved to predictions_lstm.txt

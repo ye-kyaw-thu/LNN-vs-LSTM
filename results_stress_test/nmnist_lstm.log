@@ -1,0 +1,5 @@
+Device: cpu | Dataset: nmnist | Method: lstm
+RESULT | Drop: 0.0% | Accuracy: 0.9863
+RESULT | Drop: 30.0% | Accuracy: 0.7748
+RESULT | Drop: 50.0% | Accuracy: 0.5827
+RESULT | Drop: 70.0% | Accuracy: 0.3652

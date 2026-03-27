@@ -1,0 +1,24 @@
+digraph NMNIST_LNN {
+    rankdir=TB;
+    node [shape=rect, style=filled, fontname="Arial"];
+
+    Input [label="Input: Event Frames\n(10, 2, 34, 34)", fillcolor="#e1f5fe"];
+    
+    subgraph cluster_cnn {
+        label = "CNN Backbone (Feature Extraction)";
+        style=dashed;
+        Conv1 [label="Conv2D (3x3, 32)\n+ BatchNorm + ReLU", fillcolor="#fff9c4"];
+        Pool1 [label="MaxPool2D (2x2)", fillcolor="#fff9c4"];
+        Conv2 [label="Conv2D (3x3, 64)\n+ BatchNorm + ReLU", fillcolor="#fff9c4"];
+        Pool2 [label="MaxPool2D (2x2)", fillcolor="#fff9c4"];
+        Flatten [label="Flatten (4096 units)", fillcolor="#fff9c4"];
+    }
+
+    LNN [label="LNN Core (CfC)\n(Units: 128)", fillcolor="#c8e6c9"];
+    Pool [label="Global Average Pooling\n(Across Time)", fillcolor="#ffe0b2"];
+    FC [label="Softmax Classifier\n(10 Classes)", fillcolor="#f8bbd0"];
+
+    Input -> Conv1 -> Pool1 -> Conv2 -> Pool2 -> Flatten;
+    Flatten -> LNN [label="Sequence of Features"];
+    LNN -> Pool -> FC;
+}

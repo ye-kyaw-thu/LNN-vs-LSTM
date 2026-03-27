@@ -1,0 +1,24 @@
+digraph PhysioNet_LNN {
+    rankdir=TB;
+    node [shape=rect, style=filled, fontname="Arial"];
+
+    // Input Stage based on dataset processing
+    Input [label="Input: Vital Signs & Labs\n(39 Features + Time Delta)", fillcolor="#e1f5fe"];
+    
+    // Feature Engineering as seen in SepsisClassifier forward pass
+    Combine [label="Feature Concatenation\n(x_combined = [x, t])\nDim: 40", fillcolor="#bbdefb"];
+
+    // Sequential Core
+    LNN [label="LNN Core (CfC)\n(Units: 128/256)\n(Backbone Layers: 1)", fillcolor="#c8e6c9"];
+    
+    // Final Output Stage
+    LastState [label="Last State Selection\n(out[:, -1, :])", fillcolor="#ffe0b2"];
+    
+    Classifier [label="Linear Classifier\n(Output: Raw Logit)\n(Binary Sepsis Prediction)", fillcolor="#f8bbd0"];
+
+    // Flow matching the script logic
+    Input -> Combine;
+    Combine -> LNN [label="Sequence of Combined Vectors"];
+    LNN -> LastState -> Classifier;
+}
+

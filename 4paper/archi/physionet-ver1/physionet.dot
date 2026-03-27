@@ -1,0 +1,15 @@
+digraph PhysioNet_LNN {
+    rankdir=TB;
+    node [shape=rect, style=filled, fontname="Arial"];
+
+    Input [label="Input: Physiological Features\n(T, 40 variables)", fillcolor="#e1f5fe"];
+    
+    CfC_Core [label="LNN Core (CfC)\n(Units: 128/256)\n(Backbone: 1 layer)", fillcolor="#c8e6c9"];
+    
+    Feature_Mix [label="Time-Variant Mixing\n(Hidden State x Time)", fillcolor="#fff9c4"];
+    
+    Classifier [label="Linear Classifier\n(Output: 1 - Sepsis Logit)", fillcolor="#f8bbd0"];
+
+    Input -> CfC_Core -> Feature_Mix -> Classifier;
+}
+

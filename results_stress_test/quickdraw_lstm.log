@@ -1,0 +1,5 @@
+Device: cpu | Dataset: quickdraw | Method: lstm
+RESULT | Drop: 0.0% | Accuracy: 0.9435
+RESULT | Drop: 30.0% | Accuracy: 0.7428
+RESULT | Drop: 50.0% | Accuracy: 0.4089
+RESULT | Drop: 70.0% | Accuracy: 0.1843

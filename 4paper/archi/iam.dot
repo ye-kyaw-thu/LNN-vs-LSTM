@@ -1,0 +1,23 @@
+digraph IAM_LNN {
+    rankdir=TB;
+    node [shape=rect, style=filled, fontname="Arial"];
+
+    Input [label="Input: Handwritten Line\n(1, 64, 512)", fillcolor="#e1f5fe"];
+    
+    subgraph cluster_resnet {
+        label = "ResNet Backbone";
+        style=dashed;
+        Res1 [label="Initial Conv (64)", fillcolor="#fff9c4"];
+        Res2 [label="ResBlocks x 6\n(Downsampling)", fillcolor="#fff9c4"];
+        ResOut [label="Output Feature Map\n(512, 8, W_final)", fillcolor="#fff9c4"];
+    }
+
+    Reshape [label="Permute & Reshape\n(Width, 512*8)", fillcolor="#bbdefb"];
+    PosEnc [label="1D Positional Encoding", fillcolor="#d1c4e9"];
+    LNN [label="LNN Core (CfC)\n(Units: 256)", fillcolor="#c8e6c9"];
+    
+    CTC [label="CTC Decoder\n(Character Predictions)", fillcolor="#f8bbd0"];
+
+    Input -> Res1 -> Res2 -> ResOut;
+    ResOut -> Reshape -> PosEnc -> LNN -> CTC;
+}
