@@ -1,4 +1,4 @@
-# LLN-vs-LSTM
+# LNN-vs-LSTM
 Comparative Analysis of Liquid Neural Networks and LSTM for Sequential Pattern Recognition
 
 ## Citation
